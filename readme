@@ -1,0 +1,25 @@
++---------------------------+
+|  Terminal (CLI Commands) |
+|  - transfer              |
+|  - balance               |
+|  - hack gateway          |
+|  - view logs             |
++------------+-------------+
+             |
+             ▼
++---------------------------+
+|   Flask Server (API)      |
+|  -----------------------  |
+|  /transfer                |
+|  /balance/<account>       |
+|  /firewall-alerts         |
+|  /swift_gateway           |
+|  /hack                    |
++------------+-------------+
+             |
+             ▼
++---------------------------+
+|  MySQL Database           |
+|  - accounts table         |
+|  - transactions table     |
++---------------------------+
